@@ -177,11 +177,11 @@ p { font-size: 0.925rem; line-height: 1.8; }
   flex-shrink: 0;
 }
 .logo-chef {
-  font-family: var(--font-sans);
-  font-size: 0.68rem;
-  font-weight: 600;
-  letter-spacing: 0.3em;
-  text-transform: uppercase;
+  font-family: var(--font-serif);
+  font-size: 1.55rem;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  text-transform: none;
   color: var(--gold);
 }
 .logo-name {
@@ -917,7 +917,8 @@ textarea { resize: vertical; min-height: 120px; }
   letter-spacing: 0.15em;
   margin-top: 0.35rem;
 }
-.footer-logo .logo-name { font-size: 1.2rem; }
+.footer-logo .logo-name,
+.footer-logo .logo-chef { font-size: 1.2rem; }
 .footer-nav {
   display: flex;
   gap: 2rem;
